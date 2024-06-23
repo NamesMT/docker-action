@@ -1,0 +1,6 @@
+name: Local Action
+description: A local action that runs a local Dockerfile :D
+
+runs:
+  using: docker
+  image: Dockerfile
